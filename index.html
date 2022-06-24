@@ -13,35 +13,35 @@
 <body>
 
     <h2>Ajala Jewellries Limited</h2>
-    <p>We buy we sell Jewellries and yeah that's right</p>
+    <p>We buy we sell Jewellries anytime everytime</p>
     <br>
 
     <form id="buyer" class="form-group">
         <label for="">Firstname:</label>
-        <input type="text" class="form-control" required placeholder="Your name">
+        <input  type="text" class="form-control apply" required placeholder="Your name">
         <br>
 
         <label for="">Surname:</label>
-        <input type="text" class="form-control" required placeholder="Your surname">
+        <input  type="text" class="form-control apply1" required placeholder="Your surname">
         <br>
 
         <label for="">Item's number:</label>
-        <input type="number" class="form-control" required placeholder="The number of the purchased item">
+        <input type="number" class="form-control apply2" required placeholder="The number of the purchased item">
         <br>
 
         <label for="">Item's Label:</label>
-        <input type="number" class="form-control" required placeholder="Label number for item">
+        <input type="number" class="form-control apply3" required placeholder="Label number for item">
         <br>
 
         <label for="">Item's Color:</label>
-        <input type="color" class="form-control" required placeholder="The item's color">
+        <input type="color" class="form-control apply4" required placeholder="The item's color">
         <br>
 
         <label for="">Date of purchase:</label>
-        <input type="date" class="form-control" required placeholder="The date the item is bought">
+        <input type="date" class="form-control apply5" required placeholder="The date the item is bought">
         <br>
 
-        <label for="">Jewellry type:</label>
+        <label  for="" class="apply6">Jewellry type:</label>
         <select name="" id="" class="form-control">
             <option value="1">Necklace</option>
             <option value="2">Bracelet</option>
@@ -49,6 +49,20 @@
         </select>
         <br>
         <button type="submit" class="btn btn-success">Generate receipt</button>
+        <p>See receipt below!</p>
     </form>
+
+    <div id="receipt">
+        <h3>THANKS FOR YOUR PURCHASE</h3>
+        <br>
+
+        <label for="">name: Mr <span class="apply"></span> <span class="apply1"></span></label> <br> <br>
+        <label for="">Date of purchase: <span class="apply5"></span></label>  <br> <br>
+        <label for="">Item's Label: <span class="apply3"></span></label> <br> <br>
+        <label for="">Item's color: <span class="apply4"></span></label> <br> <br>
+        <label for="">Jewellry type: <span class="apply6"></span></label> <br> <br>
+        <label for="">Item's number: <span class="apply2"></span></label>
+    </div>
+
 </body>
 </html>

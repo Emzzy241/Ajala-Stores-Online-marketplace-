@@ -1,0 +1,7 @@
+body{
+    background-color: burlywood;
+}
+#receipt{
+    display: none;
+    background-color: green;
+}
