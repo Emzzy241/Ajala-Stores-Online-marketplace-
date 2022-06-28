@@ -5,3 +5,7 @@ body{
     display: none;
     background-color: green;
 }
+
+h2, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
