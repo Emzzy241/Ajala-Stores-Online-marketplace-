@@ -1,4 +1,4 @@
-# ONLINE MARKETPLACE
+# Ajala Stores(ONLINE MARKETPLACE)
 
 #### made by Mojiboye Emmanuel
 
